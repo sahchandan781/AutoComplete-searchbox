@@ -1,0 +1,27 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.input-box {
+  width: 500px;
+
+  padding: 5px;
+}
+
+.result-box {
+  width: 500px;
+  max-height: 500px;
+  margin: auto;
+  padding: 5px;
+  border: 1px solid black;
+  text-align: left;
+  overflow-y: scroll;
+}
+.result {
+  display: block;
+}
+.result:hover {
+  background-color: bisque;
+  cursor: pointer;
+}
